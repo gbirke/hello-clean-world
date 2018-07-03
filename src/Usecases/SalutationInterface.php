@@ -1,5 +1,5 @@
 <?php
 
-interface SaluationInterface {
+interface SalutationInterface {
     public function createSalutation(): string;
 }

@@ -1,6 +1,6 @@
 <?php
 
-class FriendlySaluation implements SaluationInterface {
+class FriendlySalutation implements SalutationInterface {
     public function createSalutation(): string {
         return 'Hello';
     }

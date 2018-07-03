@@ -5,7 +5,7 @@ class GreetingUsecase {
     private $location;
     private $presenter;
 
-    public function __construct( SaluationInterface $salutation, Location $location, GreetingPresenterInterface $presenter)
+    public function __construct( SalutationInterface $salutation, Location $location, GreetingPresenterInterface $presenter)
     {
         $this->salutation = $salutation;
         $this->location = $location;
